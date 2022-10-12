@@ -1,4 +1,5 @@
 1- head users.txt
 2- Tail -n5 users.txt
 3- Tail -n+11 users.txt
-3- Tail -n+11 users.txt | head -n+10
+4- Tail -n+11 users.txt | head -n+10
+5- cut -b1 users.txt
