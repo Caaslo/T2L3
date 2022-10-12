@@ -4,3 +4,4 @@
 4- Tail -n+11 users.txt | head -n+10
 5- cut -b1 users.txt
 6- cut -b1,3,5 users.txt
+7- cat users.txt | grep -v | cur -d:
