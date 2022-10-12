@@ -6,4 +6,5 @@
 6- cut -b1,3,5 users.txt
 7- cat users.txt | grep -v | cur -d: -f1
 8- cat users.txt | grep -v ^# | grep -v ^_ | cut -d: -f1
-9-cat users.txt | grep -v ^# |  cut -d: -f3
+9- cat users.txt | grep -v ^# |  cut -d: -f3
+10- sort -r users.txt
