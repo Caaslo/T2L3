@@ -8,3 +8,4 @@
 8- cat users.txt | grep -v ^# | grep -v ^_ | cut -d: -f1
 9- cat users.txt | grep -v ^# |  cut -d: -f3
 10- sort -r users.txt
+11- cat users.txt | sort -t: -k3 -n5
